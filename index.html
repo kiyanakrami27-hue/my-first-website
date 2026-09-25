@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لاجورد | املاک لوکس افغانستان</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== لایه‌های تزئینی پس‌زمینه ===== -->
+<div class="bg-layer" id="bgLayer">
+  <span class="fleck f1"></span>
+  <span class="fleck f2"></span>
+  <span class="fleck f3"></span>
+  <span class="fleck f4"></span>
+  <span class="fleck f5"></span>
+</div>
+
+<!-- ===== هدر ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#" class="brand">
+      <span class="brand-mark">
+        <svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true">
+          <polygon points="20,2 36,20 20,38 4,20" fill="url(#gemGrad)"/>
+          <polygon points="20,2 28,20 20,38 12,20" fill="rgba(255,255,255,.18)"/>
+          <defs>
+            <linearGradient id="gemGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#3fa8a3"/>
+              <stop offset="1" stop-color="#1c4d73"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <span class="brand-text">لاجورد<em>املاک</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#featured">پروژه‌ها</a>
+      <a href="#why">چرا لاجورد</a>
+      <a href="#cities">شهرها</a>
+      <a href="#process">روند خرید</a>
+      <a href="#contact">تماس</a>
+    </nav>
+
+    <button class="cta-small" id="callBtn">مشاوره رایگان</button>
+    <button class="nav-toggle" id="navToggle" aria-label="باز کردن منو">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== هیرو - بخش اصلی با افکت سه‌بعدی ===== -->
+<section class="hero" id="hero">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow-line">خانه‌ای در دل کابل، هرات و مزار</p>
+      <h1>
+        زندگی به رنگ <span class="gem-word">لاجورد</span>
+        <br>در قلب افغانستان
+      </h1>
+      <p class="hero-desc">
+        ما ویلاها، آپارتمان‌ها و زمین‌های منتخب را در بهترین نقاط شهرهای افغانستان
+        گردآوری کرده‌ایم؛ از وزیر اکبرخان کابل تا کنار مسجد کبود مزارشریف.
+        هر خانه، پیش از رسیدن به فهرست ما، از نزدیک بازدید و تایید می‌شود.
+      </p>
+
+      <form class="hero-search" id="heroSearch">
+        <div class="field">
+          <label for="city">شهر</label>
+          <select id="city" name="city">
+            <option>کابل</option>
+            <option>هرات</option>
+            <option>مزارشریف</option>
+            <option>قندهار</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="type">نوع ملک</label>
+          <select id="type" name="type">
+            <option>ویلا</option>
+            <option>آپارتمان</option>
+            <option>زمین تجاری</option>
+            <option>خانه حویلی‌دار</option>
+          </select>
+        </div>
+        <div class="field field-budget">
+          <label for="budget">بودجه (افغانی)</label>
+          <input type="text" id="budget" placeholder="مثلاً تا ۱۵ میلیون">
+        </div>
+        <button type="submit" class="search-btn">جستجوی ملک</button>
+      </form>
+
+      <div class="hero-stats">
+        <div><strong>۴۲۰+</strong><span>ملک فروخته‌شده</span></div>
+        <div><strong>۴</strong><span>شهر فعال</span></div>
+        <div><strong>۱۳</strong><span>سال تجربه</span></div>
+      </div>
+    </div>
+
+    <div class="hero-stage" id="heroStage">
+      <div class="stage-3d" id="stage3d">
+        <div class="card-plate plate-back"></div>
+        <div class="card-plate plate-mid">
+          <div class="skyline"></div>
+        </div>
+        <div class="floating-card fc-price">
+          <span class="fc-label">قیمت شروع</span>
+          <span class="fc-value">۸.۵M <small>افغانی</small></span>
+        </div>
+        <div class="floating-card fc-loc">
+          <span class="fc-dot"></span>
+          <span>وزیر اکبرخان، کابل</span>
+        </div>
+        <div class="floating-card fc-verified">
+          <span class="fc-check">✓</span>
+          <span>ملک تایید‌شده</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-fade"></div>
+</section>
+
+<!-- ===== نوار مشتریان/لوگوها ===== -->
+<section class="trustbar">
+  <div class="container trustbar-inner">
+    <span>مورد اعتماد خانواده‌ها و سرمایه‌گذاران در سراسر افغانستان</span>
+    <div class="trust-tags">
+      <span>بانک‌های شریک</span><span>—</span>
+      <span>دفاتر اسناد رسمی</span><span>—</span>
+      <span>شرکت‌های ساختمانی معتبر</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== چرا لاجورد ===== -->
+<section class="why" id="why">
+  <div class="container">
+    <div class="section-head">
+      <h2>سنگ محک ما، اعتماد شماست</h2>
+      <p>هر مرحله از دیدن ملک تا امضای سند، زیر نظر تیم لاجورد انجام می‌شود.</p>
+    </div>
+
+    <div class="why-grid">
+      <article class="why-card" data-tilt>
+        <div class="why-icon">
+          <svg viewBox="0 0 48 48" width="30" height="30"><path d="M24 4 40 14v20L24 44 8 34V14z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M24 20v14M24 20 12 13M24 20l12-7" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+        </div>
+        <h3>بازدید تایید‌شده</h3>
+        <p>پیش از درج در سایت، کارشناسان ما شخصاً از ملک بازدید و مدارک مالکیت را بررسی می‌کنند.</p>
+      </article>
+
+      <article class="why-card" data-tilt>
+        <div class="why-icon">
+          <svg viewBox="0 0 48 48" width="30" height="30"><circle cx="24" cy="24" r="18" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M16 25l5 5 11-13" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>قرارداد شفاف</h3>
+        <p>تمام مراحل حقوقی، از توافق اولیه تا انتقال سند در محضر، همراه شما پیگیری می‌شود.</p>
+      </article>
+
+      <article class="why-card" data-tilt>
+        <div class="why-icon">
+          <svg viewBox="0 0 48 48" width="30" height="30"><path d="M8 40h32M12 40V20l12-10 12 10v20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><rect x="20" y="28" width="8" height="12" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+        </div>
+        <h3>پوشش چهار شهر</h3>
+        <p>کابل، هرات، مزارشریف و قندهار؛ با تیم محلی که بازار هر شهر را می‌شناسد.</p>
+      </article>
+
+      <article class="why-card" data-tilt>
+        <div class="why-icon">
+          <svg viewBox="0 0 48 48" width="30" height="30"><path d="M24 6c8 6 14 6 14 6v14c0 10-6 15-14 18-8-3-14-8-14-18V12s6 0 14-6z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>ضمانت پس از فروش</h3>
+        <p>حتی بعد از تحویل کلید، تیم پشتیبانی لاجورد پاسخگوی سوالات و مشکلات شماست.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== پروژه‌های منتخب ===== -->
+<section class="featured" id="featured">
+  <div class="container">
+    <div class="section-head split">
+      <div>
+        <h2>پروژه‌های منتخب این هفته</h2>
+        <p>از میان صدها ملک تاییدشده، این‌ها را برای شما برگزیده‌ایم.</p>
+      </div>
+      <a href="#" class="link-arrow">مشاهده همه پروژه‌ها ‹</a>
+    </div>
+
+    <div class="property-grid">
+
+      <article class="property-card" data-tilt>
+        <div class="property-media grad-1">
+          <span class="property-badge">پرفروش</span>
+          <div class="media-scene">
+            <div class="scene-hill h1"></div>
+            <div class="scene-hill h2"></div>
+            <div class="scene-building b1"></div>
+            <div class="scene-building b2"></div>
+            <div class="scene-sun"></div>
+          </div>
+        </div>
+        <div class="property-body">
+          <div class="property-top">
+            <h3>ویلای حویلی‌دار، وزیر اکبرخان</h3>
+            <span class="property-price">۹.۲M افغانی</span>
+          </div>
+          <p class="property-loc">کابل — ناحیه ۹</p>
+          <ul class="property-specs">
+            <li>۴ اتاق‌خواب</li><li>۳۲۰ متر مربع</li><li>پارکینگ اختصاصی</li>
+          </ul>
+          <a href="#" class="property-link">جزئیات ملک</a>
+        </div>
+      </article>
+
+      <article class="property-card" data-tilt>
+        <div class="property-media grad-2">
+          <span class="property-badge">جدید</span>
+          <div class="media-scene">
+            <div class="scene-hill h1"></div>
+            <div class="scene-dome"></div>
+            <div class="scene-building b1"></div>
+          </div>
+        </div>
+        <div class="property-body">
+          <div class="property-top">
+            <h3>آپارتمان نزدیک مسجد کبود</h3>
+            <span class="property-price">۴.۶M افغانی</span>
+          </div>
+          <p class="property-loc">مزارشریف — مرکز شهر</p>
+          <ul class="property-specs">
+            <li>۲ اتاق‌خواب</li><li>۱۴۵ متر مربع</li><li>طبقه سوم</li>
+          </ul>
+          <a href="#" class="property-link">جزئیات ملک</a>
+        </div>
+      </article>
+
+      <article class="property-card" data-tilt>
+        <div class="property-media grad-3">
+          <span class="property-badge">تخفیف ویژه</span>
+          <div class="media-scene">
+            <div class="scene-hill h1"></div>
+            <div class="scene-building b1 tall"></div>
+            <div class="scene-building b2"></div>
+            <div class="scene-building b3"></div>
+          </div>
+        </div>
+        <div class="property-body">
+          <div class="property-top">
+            <h3>خانه سنتی، شهر کهنه هرات</h3>
+            <span class="property-price">۵.۸M افغانی</span>
+          </div>
+          <p class="property-loc">هرات — نزدیک مسجد جامع</p>
+          <ul class="property-specs">
+            <li>۳ اتاق‌خواب</li><li>۲۱۰ متر مربع</li><li>حیاط سنتی</li>
+          </ul>
+          <a href="#" class="property-link">جزئیات ملک</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== شهرها ===== -->
+<section class="cities" id="cities">
+  <div class="container">
+    <div class="section-head">
+      <h2>در کدام شهر دنبال خانه می‌گردید؟</h2>
+      <p>هر شهر، بازار و قیمت‌گذاری خودش را دارد. تیم محلی ما راهنمای شماست.</p>
+    </div>
+    <div class="city-grid">
+      <div class="city-card" data-tilt>
+        <h3>کابل</h3>
+        <span>۱۸۰ ملک فعال</span>
+      </div>
+      <div class="city-card" data-tilt>
+        <h3>هرات</h3>
+        <span>۹۵ ملک فعال</span>
+      </div>
+      <div class="city-card" data-tilt>
+        <h3>مزارشریف</h3>
+        <span>۷۰ ملک فعال</span>
+      </div>
+      <div class="city-card" data-tilt>
+        <h3>قندهار</h3>
+        <span>۵۵ ملک فعال</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== روند خرید ===== -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-head">
+      <h2>از انتخاب تا تحویل کلید، چهار گام ساده</h2>
+    </div>
+    <ol class="process-steps">
+      <li>
+        <span class="step-num">۱</span>
+        <h3>جستجو و انتخاب</h3>
+        <p>با فیلتر شهر، بودجه و نوع ملک، فهرستی متناسب با نیاز شما آماده می‌شود.</p>
+      </li>
+      <li>
+        <span class="step-num">۲</span>
+        <h3>بازدید حضوری</h3>
+        <p>یکی از مشاوران محلی ما، همراه شما از ملک بازدید می‌کند.</p>
+      </li>
+      <li>
+        <span class="step-num">۳</span>
+        <h3>بررسی اسناد</h3>
+        <p>تیم حقوقی لاجورد، مالکیت و سند ملک را پیش از قرارداد بررسی می‌کند.</p>
+      </li>
+      <li>
+        <span class="step-num">۴</span>
+        <h3>امضا و تحویل</h3>
+        <p>قرارداد در محضر رسمی امضا و کلید خانه به شما تحویل داده می‌شود.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== نظر مشتری ===== -->
+<section class="testimonial">
+  <div class="container testimonial-inner">
+    <div class="quote-mark">”</div>
+    <p class="quote-text">
+      از روز اول تماس تا روز تحویل کلید خانه در هرات، هر قدم برایم توضیح داده شد.
+      خیالم از سند و مالکیت کاملاً راحت بود.
+    </p>
+    <div class="quote-by">
+      <span class="quote-avatar">ف.ا</span>
+      <div>
+        <strong>فریدون احمدی</strong>
+        <span>خریدار خانه، هرات</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== دعوت به اقدام / تماس ===== -->
+<section class="cta-band" id="contact">
+  <div class="container cta-inner">
+    <div class="cta-text">
+      <h2>آماده دیدن خانه بعدی‌تان هستید؟</h2>
+      <p>همین امروز با یکی از مشاوران لاجورد صحبت کنید؛ مشاوره کاملاً رایگان است.</p>
+    </div>
+    <form class="cta-form">
+      <input type="text" placeholder="نام شما">
+      <input type="tel" placeholder="شماره تماس (واتساپ)">
+      <button type="submit">درخواست تماس</button>
+    </form>
+  </div>
+</section>
+
+<!-- ===== فوتر ===== -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="brand-text light">لاجورد<em>املاک</em></span>
+      <p>دفتر مرکزی: شهر نو، کابل، افغانستان</p>
+    </div>
+    <div class="footer-cols">
+      <div>
+        <h4>لینک‌ها</h4>
+        <a href="#featured">پروژه‌ها</a>
+        <a href="#why">چرا لاجورد</a>
+        <a href="#cities">شهرها</a>
+      </div>
+      <div>
+        <h4>خدمات</h4>
+        <a href="#">خرید ملک</a>
+        <a href="#">فروش ملک</a>
+        <a href="#">مشاوره حقوقی</a>
+      </div>
+      <div>
+        <h4>تماس</h4>
+        <a href="#">۰۷۰۰ ۰۰ ۰۰ ۰۰</a>
+        <a href="#">info@lajward-estate.af</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© ۱۴۰۴ لاجورد املاک. تمام حقوق محفوظ است.</span>
+  </div>
+</footer>
+
+<script>
+// افکت سه‌بعدی تعاملی برای صحنه هیرو و کارت‌ها
+(function(){
+  const stage = document.getElementById('stage3d');
+  if (stage) {
+    const heroSection = document.getElementById('hero');
+    heroSection.addEventListener('mousemove', (e) => {
+      const rect = heroSection.getBoundingClientRect();
+      const x = (e.clientX - rect.left) / rect.width - 0.5;
+      const y = (e.clientY - rect.top) / rect.height - 0.5;
+      stage.style.transform = `rotateY(${x * 14}deg) rotateX(${ -y * 10}deg)`;
+    });
+    heroSection.addEventListener('mouseleave', () => {
+      stage.style.transform = 'rotateY(0deg) rotateX(0deg)';
+    });
+  }
+
+  const tiltCards = document.querySelectorAll('[data-tilt]');
+  tiltCards.forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const r = card.getBoundingClientRect();
+      const px = (e.clientX - r.left) / r.width - 0.5;
+      const py = (e.clientY - r.top) / r.height - 0.5;
+      card.style.transform = `perspective(800px) rotateY(${px * 8}deg) rotateX(${-py * 8}deg) translateY(-4px)`;
+    });
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = 'perspective(800px) rotateY(0deg) rotateX(0deg) translateY(0)';
+    });
+  });
+
+  // پارالاکس ملایم لکه‌های پس‌زمینه با اسکرول
+  const flecks = document.querySelectorAll('.fleck');
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    flecks.forEach((f, i) => {
+      const speed = 0.03 + i * 0.015;
+      f.style.transform = `translateY(${y * speed}px)`;
+    });
+  });
+
+  // هدر چسبان با سایه هنگام اسکرول
+  const header = document.getElementById('siteHeader');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 30);
+  });
+
+  // منوی موبایل
+  const navToggle = document.getElementById('navToggle');
+  const mainNav = document.getElementById('mainNav');
+  navToggle.addEventListener('click', () => {
+    mainNav.classList.toggle('open');
+    navToggle.classList.toggle('open');
+  });
+
+  // فرم‌های نمایشی
+  document.querySelectorAll('form').forEach(f => {
+    f.addEventListener('submit', (e) => {
+      e.preventDefault();
+      f.classList.add('sent');
+      const btn = f.querySelector('button');
+      if (btn) {
+        const original = btn.textContent;
+        btn.textContent = 'ارسال شد ✓';
+        setTimeout(() => { btn.textContent = original; }, 2200);
+      }
+    });
+  });
+})();
+</script>
+<link rel="stylesheet" href="index 30.css">
+</body>
+</html>
